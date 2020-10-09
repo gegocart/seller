@@ -1,0 +1,27 @@
+.field {
+	@apply .my-1
+}
+.field .label {
+	@apply .mt-1 .mb-2 .text-grey-darker .tracking-wide 
+}
+.field .control {
+	@apply .mt-1 .mb-3
+}
+.field .control .input,.field .input{
+	@apply .p-2 .bg-grey-lightest .border .w-full .text-sm .rounded
+}
+.field .form-control{
+	@apply  .bg-grey-lightest .border .w-full
+}
+.field select {
+	@apply .p-1 .bg-grey-lightest .border .w-full .text-sm .mt-1 .mb-3 .rounded
+}
+.form-control {
+@apply .border .px-2 .py-2 .text-sm .rounded;
+}
+.help.is-danger {
+	@apply .py-1 .text-red .text-sm;
+} 
+.add-custom-form {
+	@apply .flex .flex-col ;
+}

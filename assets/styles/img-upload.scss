@@ -1,0 +1,169 @@
+.drop input[type="file"] {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+.helper {
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+  width: 0;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.hidden.image {
+  display: inline-block !important;
+}
+
+.display-inline {
+  display: inline-block;
+  vertical-align: middle;
+}
+.drop .img {
+  border: 1px solid #f6f6f6;
+  display: inline-block;
+/*  height: auto;
+  max-height: 80%;
+  max-width: 80%;
+  width: auto;*/
+}
+
+.drop {
+  background-color: #f2f2f2;
+  border: 2px dashed #ccc;
+  background-color: #f6f6f6;
+  border-radius: 2px;
+  height: 9rem;
+  /*max-height: 400px;
+  max-width: 600px;*/
+/*  width: 200px;*/
+}
+.drop .image {
+	/*border: 2px dashed #ccc;*/
+	padding: 2px;
+}
+.drop .btn {
+  /*background-color: #d3394c;*/
+  border: 0;
+  /*color: #fff;*/
+  cursor: pointer;
+  display: inline-block;
+  font-weight: bold;
+  padding: 15px 25px;
+  margin:unset;
+  position: relative;
+}
+/*.remove-btn {
+	padding: 5px;
+	 background-color: #d3394c;
+  border: 0;
+  color: #fff;
+}*/
+/*.drop .btn:hover {
+  background-color: #722040;
+}*/
+.upload-bg {
+	background-size: cover;
+	width: 9rem;
+	height: 8rem;
+	background-position: center;
+}
+.upload-bg svg {
+	color: #000;
+}
+/*new css*/
+.dropzone-img .dropzone {
+    border: 2px dashed rgba(0, 0, 0, .3);
+}
+.dropzone-img  .dropzone .dz-message {
+    margin: 3em 0;
+}
+.dropzone-img .dropzone .dz-preview .dz-image img{
+    width: 100%;
+    height: 100%;
+  }
+  .dropzone-img .dropzone .dz-preview .dz-remove {
+    font-size: 10px;
+    white-space: nowrap;
+  }
+  .dropzone-img .vue-dropzone>.dz-preview .dz-remove{
+    margin-left: unset;
+  }
+  .dropzone-img  .dropzone .dz-preview {
+    margin:14px;
+  }
+  .dropzone-img .dropzone .dz-preview .dz-image{
+    width: 100px;
+    height: 100px;
+  }
+  .dropzone .dz-preview .dz-image {
+    z-index: 0 !important;
+  }
+/*edit */
+  .edit-img {
+          position: relative;
+    display: inline-block;
+    vertical-align: top;
+    margin: 14px;
+    min-height: 100px;
+/*    border: 2px dashed rgba(0, 0, 0, .3);
+    padding: 20px 20px;*/
+  }
+  .editimage {
+      border-radius: 20px;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    display: block;
+   /* z-index: 10;*/
+  }
+  .editimage img {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  .edit-remove {
+         text-align: center;
+    display: block;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    position: absolute;
+    bottom: 30px;
+    margin: 0 25px;
+    justify-content: center;
+    text-decoration: underline;
+  }
+  .removeedit {
+  z-index: 20;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    font-size: 13px;
+    min-width: 100%;
+    max-width: 100%;
+   /* padding: 5em 1em;*/
+    text-align: center;
+    color: rgba(0, 0, 0, .9);
+    line-height: 150%;
+    background-color: rgba(33, 150, 243, .8);
+    bottom: 0;
+
+ }
+
+.main-edit {
+      position: relative;
+    display: inline-block;
+    vertical-align: top;
+    min-height: 100px;
+     border: 2px dashed rgba(0, 0, 0, .3);
+    padding: 20px 20px;
+}
+.edit-img:hover .removeedit {
+    opacity: 1;
+}

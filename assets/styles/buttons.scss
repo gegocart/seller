@@ -1,0 +1,20 @@
+.btn {
+	@apply .my-2 .px-4 .py-2 .rounded-lg 
+}
+.button {
+	@apply .my-2 .px-4 .py-2 .rounded
+}
+.is-info {
+	background-color: #ff5139;
+	color: #fff;
+	font-weight: 400;
+}
+.is-text {
+	@apply .border .font-normal;
+}
+.bg-green {
+	@apply .bg-green-light;
+}
+.bg-red {
+	@apply .bg-red-light
+}

@@ -1,0 +1,53 @@
+.breadcrumb {
+  padding: 10px;
+  list-style: none;
+  background-color: #f1f5f8;
+}
+.breadcrumb li {
+  display: inline;
+   @apply .text-sm;
+}
+.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+.breadcrumb li a {
+  color: #ff5139;
+  text-decoration: none;
+  @apply .text-sm;
+}
+.breadcrumb li a:hover {
+  color: #ff5139;
+  text-decoration: underline;
+}
+
+/*order-breadcrumb
+.order-breadcrumb {
+  padding: 8px;
+  list-style: none;
+  background-color: #f1f5f8;
+}
+.order-breadcrumb li {
+  display: inline;
+   @apply .text-xs;
+}
+.order-breadcrumb li+li:before {
+  padding: 0 8px;
+  color: black;
+  content: "|";
+}
+.order-breadcrumb li a {
+  color: #0275d8;
+  text-decoration: none;
+  @apply .text-xs;
+}
+.order-breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+.orderpageview:before {
+  padding: 8px;
+  color: black;
+  content: "|";
+}*/

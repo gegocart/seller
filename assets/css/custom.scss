@@ -1,0 +1,90 @@
+/* .sidebar a {
+  @apply  .no-underline;
+  color: #8599aa;
+ }*/
+ .sidebar li {
+  @apply .py-3  .px-3 my-1;
+ }
+ .sidebar-icon {
+  @apply .w-5 .h-5 .fill-current; 
+ }
+  .sidebar p{
+    @apply .leading-normal;
+  }
+ .cart-list table td {
+  @apply .text-left .px-3 .py-4 .text-sm ;
+ }
+ .cart-list table th {
+@apply .text-left .p-3 .text-xs .font-bold .uppercase .text-grey-darker;
+ }
+ .cart-header {
+  @apply .px-3 .pt-3 ;
+ }
+ .bg-card {
+  @apply .shadow .border .rounded  ;
+ }
+ .cart-form input {
+  @apply .shadow  .border .rounded .w-full .py-3 .px-4 .text-grey-darker  .border-grey-lighter ;
+ }
+ .cart-form select {
+  @apply .block  .w-full .border .border-grey-lighter .text-grey-darker .py-3 .px-4 .pr-8 .rounded ;
+ }
+ .cart-form label {
+  @apply .my-3;
+ }
+ .bg-table {
+ @apply .w-full;
+ }
+ .add-btn {
+ @apply  .rounded .text-white .p-1;
+ }
+ .input {
+  @apply .border  .w-full .py-2 .shadow-none .text-grey-darker .leading-tight ;
+ }
+ .label {
+  @apply .text-grey-darker;
+ }
+ .info-btn {
+  @apply  .bg-primary .text-white  .py-1 .px-2 .text-sm .text-center;
+ }
+  .info-btn:hover {
+    @apply .text-white;
+  }
+  .cancel-btn {
+    @apply .border .px-2 .py-1 .text-sm .rounded .text-center;
+  }
+ :root {
+ --white-background-color:#fff;
+ --blue-background-color:#3490dc;
+  --page-background-color:#F5F6F9;
+  --sidebar-background-color:#33414e;
+  --card-background-color:#fff;
+  --custom-background-color:#f0f4f9;
+  --primary-background-color:#2d3945;
+/*  --text-default-color:#fff;
+  --text-grey-color:#8599aa;
+  --text-black-color:#000;*/
+ }
+ /*-----------*/
+ .sidebar li:hover {
+  background-color: #e34724;
+ }
+.sidebar li:hover .sidebar p {
+  color: #fff;
+ }
+ .hide-menu{
+ display:none;
+ }
+ .input:focus,.input:active {
+  border-color:#dbdbdb;
+  box-shadow: none;
+ }
+ a {
+  color: #8699aa;
+ }
+ #addform {
+      -webkit-animation: slide-right 5s ;
+ }
+ tr:nth-child(even) {
+  background-color: #fff;
+}

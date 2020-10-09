@@ -1,0 +1,7 @@
+#production
+#BASEURL=https://demo-admin.gegocart.com/api
+#SITEURL=https://demo-admin.gegocart.com/
+
+#local
+BASEURL=http://admin-app.test/api
+SITEURL=http://admin-app.test/

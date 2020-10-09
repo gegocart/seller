@@ -1,0 +1,58 @@
+@import 'pages';
+@import 'custom';
+@import 'sidebar';
+@import 'form-elements';
+@import 'buttons';
+@import 'typography';
+@import 'card';
+@import 'breadcrumbs';
+@import 'img-upload';
+
+body {
+	@apply .bg-grey-lightest .font-sans
+}
+i {
+	@apply .font-sans .capitalize
+}
+tbody,.bg-custom {
+	@apply .bg-grey-lighter;
+}
+.section {
+	@apply .p-0 .my-5 .mx-2;
+}
+	/*background-color: #fff;*/
+
+/*h1,h2,h3,h4,h5,h6{
+	@apply .text-2xl;
+}*/
+label,span,.button {
+	@apply .text-sm;
+}
+ a {
+ 	@apply .no-underline .cursor-pointer;
+  color: #8699aa;
+ }
+h1 {
+	@apply .text-2xl;
+}
+@media(max-width: 768px){
+	h1 {
+		font-size: 20px;
+	}
+}
+h2 {
+	font-size: 30px;
+}
+h3 {
+	font-size: 28px;
+}
+h4 {
+	font-size: 24px;
+}
+h5 {
+	font-size: 13px;
+}
+h6 {
+	@apply .font-semibold .my-2;
+	font-size: 13px;
+}
